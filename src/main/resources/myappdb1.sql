@@ -1,0 +1,7 @@
+CREATE TABLE EMPLOYEE
+( emp_id INT(11) NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(25) NOT NULL,
+  last_name VARCHAR(25) NOT NULL,
+  email_id VARCHAR(50) NOT NULL,
+  CONSTRAINT empid_pk PRIMARY KEY (emp_id)
+);
